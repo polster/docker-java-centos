@@ -12,6 +12,7 @@ This code project contains some Dockerfiles to be used to build a Java version X
 The following versions are currently available (identified by Docker tag):
 
 * oracle-8-jre
+* oracle-8-jdk
 
 ### Dev guidelines
 
@@ -34,7 +35,7 @@ git clone https://github.com/polster/docker-java-centos.git
 cd docker-java-centos/oracle8-jre
 
 # Build the image by specifying an explicit Java version
-docker build --build-arg JAVA_VERSION=8u101 --build-arg JAVA_VERSION_BUILD=b13 -tag oracle-jre-8-101 .
+docker build --build-arg JAVA_VERSION=8u101 --build-arg JAVA_VERSION_BUILD=b13 --tag oracle-jre-8-101 .
 
 ```
 

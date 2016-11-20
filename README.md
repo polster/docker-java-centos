@@ -14,6 +14,8 @@ The following versions are currently available (identified by Docker tag):
 * oracle-8-jre
 * oracle-8-jdk
 
+See [java-centos7 Docker repo](https://cloud.docker.com/app/polster/repository/docker/polster/java-centos7/general) for more details.
+
 ### Dev guidelines
 
 * Github: In case of a new Java version update or any other relevant change to the code project to be released, a new Git tag will be created
